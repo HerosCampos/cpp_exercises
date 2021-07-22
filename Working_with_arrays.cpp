@@ -31,7 +31,7 @@ int main()
     print_array(guesses, count);
 
     std::cin.clear();
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // very important 
 
     std::string test;
     std::cin >> test;
