@@ -24,27 +24,23 @@ int main()
             unique_numbers.push_back(v);
             std::cout << "Value " << v << " added successfully" << std::endl;
         }
+
+        while(true)
+        {
+            std::cout << "Do you want to continue? [Y/N] ";
+            std::cin >> stop;
+            if (stop == 'N' || stop == 'n')
+            {
+                break;
+            }
+            else if (stop == 'Y' || stop == 'y')
+            {
+                break;
+            }            
+        }
+        if (stop == 'N' || stop == 'n')
+        {
+            break;
+        }
     }    
 }
-
-// int main()
-// {    
-//     std::vector<int> v;
-//     int key {0};
-
-//     while(true)
-//     {
-        
-//         std::cout << "Enter a number: ";        
-//         std::cin >> key;
-    
-//         if (std::find(v.begin(), v.end(), key) != v.end()) {
-//             std::cout << "Element found" << std::endl;
-//         }
-//         else {
-//             v.push_back(key);
-//             std::cout << "Element added successfully" << std::endl;
-            
-//         }
-//     }
-// }
