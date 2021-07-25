@@ -38,6 +38,7 @@ int main()
         }
     }
 
+    // sorting and printing values from a vector
     std::sort(values.begin(), values.end());
     for(int i: values)
     {
