@@ -5,37 +5,56 @@
 
 class Player 
 {
-public:
-    // attributes
+private:
     std::string name;
-    int health {100};
-    int xp {3};
+    int health;
+    int xp;
 
 public:
-    // methods
-    void talk(std::string text_to_say)
+    std::string get_name()
     {
-        std::cout << name << " says: " << text_to_say << std::endl;
+        return name;
     }
-    bool is_dead();
+    int get_health()
+    {
+        return health;
+    }
+    int get_xp()
+    {
+        return xp;
+    }
 
-    // -------------------------------------
-    Player();
-    Player(std::string name_val);
-    Player(std::string name_val, int health_val, int xp_val);
+    Player(std::string name_val = "None", int health_val = 0, int xp_val = 0);
+
+    // Copy constructor
+    Player(const Player &source);
+    
+    // Destructor
+    ~Player()
+    {
+        std::cout << "Destructor called for: " << name << std::endl;
+    }
 };
 
 
-Player::Player()
-    : name{"None"}, health{0}, xp{0} {
-}
-
-Player::Player(std::string name_val)
-    : name{name_val}, health{0}, xp{0} {
-}
-
 Player::Player(std::string name_val, int health_val, int xp_val)
-    : name{name_val}, health{health_val}, xp{xp_val} {
+    :name{name_val}, health{health_val}, xp{xp_val} {
+        std::cout << "Three-args constructor for: " << name << std::endl;
+}
+
+
+Player::Player(const Player &source)
+    // :name(source.name), health(source.health), xp(source.xp) {
+    :Player{source.name, source.health, source.xp} { 
+        std::cout << "Copy constructor - made copy of: " << source.name << std::endl;
+}
+
+
+void display_player(Player p)
+{
+    std::cout << "Name: " << p.get_name() << std::endl;
+    std::cout << "Health: " << p.get_health() << std::endl;
+    std::cout << "XP: " << p.get_xp() << std::endl;
 }
 
 
@@ -62,28 +81,11 @@ public:
 
 int main()
 {
-    // creating an account
-    Account frank_account;
-    frank_account.name = "Frank's account";
-    frank_account.balance = 500.00;
-    frank_account.deposit(50.00);
-    frank_account.withdraw(75.00);
+    Player empty;
+    Player frank{"Frank"};
+    Player hero{"Hero", 100};
+    Player villain{"Villain", 100, 55};
 
 
-    // creating a player (classic way)
-    Player Frank;
-    Frank.name = "Frank";
-    Frank.health = 100;
-    Frank.xp = 12;
-    Frank.talk("Hi there!");
-
-    // creating a player with pointer (pointing to a player)
-    Player *enemy {nullptr};
-    enemy = new Player;
-    (*enemy).name = "Enemy";
-    (*enemy).health = 100;
-    (*enemy).xp = 15;
-    (*enemy).talk("I will defeat you!");
-
-
+    display_player(hero);
 }
