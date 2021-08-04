@@ -33,6 +33,12 @@ public:
     ~Player()
     {
         std::cout << "Destructor called for: " << name << std::endl;
+        {
+            delete &name;
+            delete &health;
+            delete &xp;
+            std::cout << "Destructor freeing data for: " << name << std::endl;
+        }
     }
 };
 
