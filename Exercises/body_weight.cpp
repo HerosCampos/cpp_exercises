@@ -46,6 +46,7 @@ int main()
         std::cout << "Name: " << i.first << "\nWeight: " << i.second << std::endl;
     }
 
+    // other for loop option with pointers
     // for(auto i = person.begin(); i != person.end(); i++) // just writing another way to interact over the map/pair
     // {
     //     std::cout << "Name: " << (*i).first << "\nWeight: " << (*i).second << std::endl;
