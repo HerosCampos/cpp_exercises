@@ -67,8 +67,24 @@ private:
     std::vector<Product> all_products;
 
 public:
+    bool add_products(int product_id_val, std::string name_val, std::string brand_val, double price_val, int quantity_val);
+
     
 };
+
+bool Products::add_products(int product_id_val, std::string name_val, std::string brand_val, double price_val, int quantity_val)
+{
+    for(const Product &prod: all_products)
+    {
+        if(prod.get_product_id() == product_id_val)
+        {
+            return false;
+        }
+        Product temp {product_id_val, name_val, brand_val, price_val, quantity_val};
+        all_products.push_back(temp);
+        return true;
+    }
+}
 
 
 
