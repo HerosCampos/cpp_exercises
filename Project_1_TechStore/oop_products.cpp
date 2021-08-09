@@ -68,40 +68,65 @@ private:
 
 public:
     bool add_products(int product_id_val, std::string name_val, std::string brand_val, double price_val, int quantity_val);
+    void display_products() const;
 
-    
+    // Products(int product_id_val = 0000, std::string name_val = "name", std::string brand_val = "brand", double price_val = 00.00, int quantity_val = 0);
+    // ~Products();    
 };
+
 
 bool Products::add_products(int product_id_val, std::string name_val, std::string brand_val, double price_val, int quantity_val)
 {
-    for(const Product &prod: all_products)
+    for(Product prod: all_products)
     {
         if(prod.get_product_id() == product_id_val)
         {
             return false;
         }
-        Product temp {product_id_val, name_val, brand_val, price_val, quantity_val};
-        all_products.push_back(temp);
-        return true;
+    }
+    Product temp {product_id_val, name_val, brand_val, price_val, quantity_val};
+    all_products.push_back(temp);
+    return true;
+}
+
+
+void Products::display_products() const 
+{
+    if(all_products.size() == 0)
+    {
+        std::cout << "Sorry, no products to display!" << std::endl;
+    }
+    else
+    {
+        std::cout << "==================================================" << std::endl;
+        for(auto prod: all_products)
+        {
+            std::cout << "Product ID: " << prod.get_product_id() << "Product Name: " << prod.get_name() << std::endl;
+        }
+        std::cout << "==================================================" << std::endl;
     }
 }
 
 
 
 
-
-
 int main()
 {
-    Product teclado(0001, "Teclado Premium", "Microsoft", 89.90, 8);
-    Product mouse(0002, "Mouse sem fio", "Microsoft", 22.49, 4);
-    Product mouse_pad(0003, "Mouse Pad", "Lutier");
+    Products produtos;
+    produtos.display_products();
 
-    display_product(mouse_pad);
+    // Product teclado(0001, "Teclado Premium", "Microsoft", 89.90, 8);
+    produtos.add_products(0001, "Teclado_Premium", "Microsoft", 89.90, 8);
+    produtos.display_products();
+    // Product mouse(0002, "Mouse sem fio", "Microsoft", 22.49, 4);
+    // Product mouse_pad(0003, "Mouse Pad", "Lutier");
 
-    mouse_pad.set_price(4.99);
-    mouse_pad.set_quantity(2);
+    // display_product(mouse_pad);
+
+    // mouse_pad.set_price(4.99);
+    // mouse_pad.set_quantity(2);
     
-    display_product(mouse_pad);
+    // display_product(mouse_pad);
+
 
 }
