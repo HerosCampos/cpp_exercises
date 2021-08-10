@@ -101,7 +101,7 @@ void Products::display_products() const
         std::cout << "==================================================" << std::endl;
         for(auto prod: all_products)
         {
-            std::cout << "Product ID: " << prod.get_product_id() << "Product Name: " << prod.get_name() << std::endl;
+            std::cout << "Product ID: " << prod.get_product_id() << "\nProduct Name: " << prod.get_name() << std::endl;
         }
         std::cout << "==================================================" << std::endl;
     }
