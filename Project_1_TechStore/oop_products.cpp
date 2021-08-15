@@ -96,7 +96,16 @@ void Products::quantity_sold(int prod_id_val, int quant_val)
         if(prod.get_product_id() == prod_id_val)
         {
             prod.set_quantity(quant_val);
-            display_product(prod);
+            // display_product(prod);
+            all_products.push_back(prod);
+        }
+    }
+    for(int i = 0; i < all_products.size(); i++)
+    {
+        std::cout << "----------------------------------------------" << std::endl;
+        if(all_products[i].get_product_id() == prod_id_val && all_products[i].get_quantity() != quant_val)
+        {
+            all_products.erase(all_products.begin() + i);
         }
     }
 }
@@ -137,7 +146,6 @@ int main()
 
     produtos.quantity_sold(2, 3);
     produtos.display_products();
-
 
 
     // Product mouse(8, "Mouse sem fio", "Microsoft", 22.49, 4);
