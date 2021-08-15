@@ -67,9 +67,10 @@ private:
 
 public:
     bool add_products(int product_id_val, std::string name_val, std::string brand_val, double price_val, int quantity_val);
-    void display_products() const;
+    void quantity_sold(int prod_id_val, int quant_val);
+    void display_products() const;    
 
-    // Products(int product_id_val = 0000, std::string name_val = "name", std::string brand_val = "brand", double price_val = 00.00, int quantity_val = 0);
+    // Products();
     // ~Products();    
 };
 
@@ -86,6 +87,18 @@ bool Products::add_products(int product_id_val, std::string name_val, std::strin
     Product temp {product_id_val, name_val, brand_val, price_val, quantity_val};
     all_products.push_back(temp);
     return true;
+}
+
+void Products::quantity_sold(int prod_id_val, int quant_val)
+{
+    for(Product prod: all_products)
+    {
+        if(prod.get_product_id() == prod_id_val)
+        {
+            prod.set_quantity(quant_val);
+            display_product(prod);
+        }
+    }
 }
 
 
@@ -111,16 +124,24 @@ void Products::display_products() const
 }
 
 
+// ==============================================================================================================
+
+
 int main()
 {
     Products produtos;
+
+    produtos.add_products(1, "Teclado_Premium", "Microsoft", 89.90, 28);
+    produtos.add_products(2, "MOUSE", "Microsoft", 49.90, 56);
+    // produtos.display_products();
+
+    produtos.quantity_sold(2, 3);
     produtos.display_products();
 
-    // Product teclado(0001, "Teclado Premium", "Microsoft", 89.90, 8);
-    produtos.add_products(0001, "Teclado_Premium", "Microsoft", 89.90, 8);
-    produtos.display_products();
-    // Product mouse(0002, "Mouse sem fio", "Microsoft", 22.49, 4);
-    // Product mouse_pad(0003, "Mouse Pad", "Lutier");
+
+
+    // Product mouse(8, "Mouse sem fio", "Microsoft", 22.49, 4);
+    // Product mouse_pad;
 
     // display_product(mouse_pad);
 
