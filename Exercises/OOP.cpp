@@ -19,18 +19,12 @@ public:
     void set_company(std::string company_val) {company = company_val;}
     void set_age(int age_val) {age = age_val;}
 
-    void introduce_yourself()
-    {
-        std::cout << "Name: " << name << std::endl;
-        std::cout << "Age: " << age << std::endl;
-        std::cout << "Company: " << company << std::endl;
-        std::cout << "====================" << std::endl;
-    }
-
-
     Employee(std::string name_val = "No name", std::string company_val = "No company", int age_val = 0);
     Employee(const Employee &source);
-    ~Employee();
+    ~Employee()
+    {
+        std::cout << "Calling destructor for: " << name << std::endl;
+    }
 };
 
 
@@ -42,10 +36,17 @@ Employee::Employee(const Employee &source)
     :Employee{source.name, source.company, source.age} {
 }
 
-
+void introduce_yourself(Employee emp)
+{
+    std::cout << "Name: " << emp.get_name() << std::endl;
+    std::cout << "Company: " << emp.get_company() << std::endl;
+    std::cout << "Age: " << emp.get_age() << std::endl;
+    std::cout << "====================" << std::endl;
+}
 
 
 int main()
 {
-
+    Employee frank("Frank", "ASDF", 50);
+    introduce_yourself(frank);
 }
