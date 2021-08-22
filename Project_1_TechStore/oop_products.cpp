@@ -95,9 +95,16 @@ void Products::quantity_sold(int prod_id_val, int quant_val)
     {
         if(prod.get_product_id() == prod_id_val)
         {
-            prod.set_quantity(quant_val);
-            // display_product(prod);
-            all_products.push_back(prod);
+            if((prod.get_quantity() - quant_val) < 0)
+            {
+                std::cout << "You cant sell more than you have available in your inventory!" << std::endl;
+                std::cout << "You only have: " << prod.get_quantity() << " un available." << std::endl;
+            }
+            else
+            {
+                prod.set_quantity(prod.get_quantity() - quant_val);
+                all_products.push_back(prod);
+            }            
         }
     }
     for(int i = 0; i < all_products.size(); i++)
