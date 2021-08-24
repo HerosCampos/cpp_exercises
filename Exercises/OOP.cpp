@@ -13,9 +13,11 @@ class AbstractEmployee
 class Employee: AbstractEmployee
 {
 private:
-    std::string name;
     std::string company;
     int age;
+
+protected:
+    std::string name;
 
 public:
     std::string get_name() {return name;}
@@ -66,7 +68,7 @@ void introduce_yourself(Employee emp)
 
 // ===============================================================================
 
-class Developer: Employee
+class Developer: public Employee
 {
 public:
     std::string favorite_prog_lang;
@@ -79,7 +81,7 @@ public:
 
     void fix_bug() 
     {
-        std::cout << get_name() << " fixed a bug using " << favorite_prog_lang << std::endl;
+        std::cout << name << " fixed a bug using " << favorite_prog_lang << std::endl;
     }
 };
 
@@ -92,4 +94,5 @@ int main()
 {
     Developer heros("Heros", "Mediar", 32, "Python");
     heros.fix_bug();
+    heros.ask_for_promotion();
 }
