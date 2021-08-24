@@ -64,8 +64,32 @@ void introduce_yourself(Employee emp)
 }
 
 
+// ===============================================================================
+
+class Developer: Employee
+{
+public:
+    std::string favorite_prog_lang;
+
+    Developer(std::string name_val = "No name", std::string company_val = "No company", int age_val = 0, std::string favorite_prog_lang_val = "none") 
+        :Employee(name_val, company_val, age_val)
+    {
+        favorite_prog_lang = favorite_prog_lang_val;
+    }
+
+    void fix_bug() 
+    {
+        std::cout << get_name() << " fixed a bug using " << favorite_prog_lang << std::endl;
+    }
+};
+
+
+// ===============================================================================
+
+
+
 int main()
 {
-    Employee frank("Frank", "ASDF", 50);
-    introduce_yourself(frank);
+    Developer heros("Heros", "Mediar", 32, "Python");
+    heros.fix_bug();
 }
