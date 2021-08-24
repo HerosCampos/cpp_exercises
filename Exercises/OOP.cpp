@@ -86,6 +86,23 @@ public:
 };
 
 
+class Teacher: public Employee
+{
+public:
+    std::string subject;
+    void prepare_lesson()
+    {
+        std::cout << name << " is preparing " << subject << " lesson." << std::endl;
+    }
+
+    Teacher(std::string name_val = "No name", std::string company_val = "No company", int age_val = 0, std::string subject_val = "none")
+        :Employee(name_val, company_val, age_val)
+    {
+        subject = subject_val;
+    }
+};
+
+
 // ===============================================================================
 
 
