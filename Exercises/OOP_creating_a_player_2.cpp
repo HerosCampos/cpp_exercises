@@ -99,12 +99,53 @@ void display_warrior(Warrior war)
 // ========================================================================================
 
 
+class Wizard: public Player
+{
+private:
+    int spell_level;
+    int mana;
+
+public:
+    int get_spell_level() {return spell_level;}
+    int get_mana() {return mana;}
+
+    void set_spell_level(int spell_level_val) {spell_level = spell_level_val;}
+    void set_mana(int mana_val) {mana = mana_val;}
+
+    Wizard(std::string name_val, int health_val, int xp_val, int spell_level_val, int mana_val);
+};
+
+Wizard::Wizard(std::string name_val = "No name", int health_val = 0, int xp_val = 0, int spell_level_val = 0, int mana_val = 0)
+    :Player(name_val, health_val, xp_val)
+{
+    spell_level = spell_level_val, mana = mana_val;
+}
+
+
+void display_wizard(Wizard w)
+{
+    std::cout << "=============================" << std::endl;
+    std::cout << "Name: " << w.get_name() << std::endl;
+    std::cout << "Health: " << w.get_health() << std::endl;
+    std::cout << "XP: " << w.get_xp() << std::endl;
+    std::cout << "Spell Level: " << w.get_spell_level() << std::endl;
+    std::cout << "Mana: " << w.get_mana() << std::endl;
+    std::cout << "=============================" << std::endl;
+}
+
+
+// ========================================================================================
+
+
 int main()
 {
-    Warrior hero("Hero", 100, 93, 88, 54);
+    Warrior hero("Aragorn", 100, 93, 88, 99);
     display_warrior(hero);
 
     hero.set_xp(97);
     hero.set_run(91);
     display_warrior(hero);
+
+    Wizard gandalf("Gandalf", 100, 100, 99, 50);
+    display_wizard(gandalf);
 }
