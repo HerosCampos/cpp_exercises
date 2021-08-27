@@ -137,6 +137,45 @@ void display_wizard(Wizard w)
 // ========================================================================================
 
 
+class Monk: public Player
+{
+private:
+    int agility;
+    int flexibility;
+
+public:
+    int get_agility() {return agility;}
+    int get_flexibility() {return flexibility;}
+
+    int set_agility(int agility_val) {agility = agility_val;}
+    int set_agility(int flexibility_val) {flexibility = flexibility_val;}
+
+    Monk(std::string name_val = "No name", int health_val = 0, int xp_val = 0, int agility_val = 0, int flexibility_val = 0);
+};
+
+Monk::Monk(std::string name_val, int health_val, int xp_val, int agility_val, int flexibility_val)
+    :Player(name_val, health_val, xp_val)
+{
+    agility = agility_val;
+    flexibility = flexibility_val;
+}
+
+
+void display_monk(Monk m)
+{
+    std::cout << "=============================" << std::endl;
+    std::cout << "Name: " << m.get_name() << std::endl;
+    std::cout << "Health: " << m.get_health() << std::endl;
+    std::cout << "XP: " << m.get_xp() << std::endl;
+    std::cout << "Agility: " << m.get_agility() << std::endl;
+    std::cout << "Flexibility: " << m.get_flexibility() << std::endl;
+    std::cout << "=============================" << std::endl;
+}
+
+
+// ========================================================================================
+
+
 int main()
 {
     Warrior hero("Aragorn", 100, 93, 88, 99);
