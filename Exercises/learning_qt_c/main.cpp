@@ -4,6 +4,11 @@
 
 int main()
 {
-    qInfo() << "Hello world";
-    std::cout << "I prefer std::cout better!" << std::endl;
+    int age = 44;
+    double height = 6.02;
+
+    qInfo() << "Age: " << age;
+    qInfo() << "Height: " << height;
+
+
 }
