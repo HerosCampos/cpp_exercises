@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "training",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "training::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training-Debug-5445d9b43a1ed836c7ce.json",
+					"name" : "training",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_autogen-Debug-b6f77de889a208083de6.json",
+					"name" : "training_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "training_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-training_autogen_timestamp_deps-Debug-249933cd5445ae97b8a1.json",
+					"name" : "training_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/1/build-training-Desktop_Qt_6_1_2_GCC_64bit-Debug",
+		"source" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/1/training"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

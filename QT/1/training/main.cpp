@@ -2,7 +2,7 @@
 #include "laptop.h"
 
 
-void test(Laptop &machine)
+void display(Laptop &machine)
 {
     machine.test();
 }
@@ -15,8 +15,8 @@ void makeLaptops()
     mine.weight = 4;
     yours.weight = 6;
 
-    test(mine);
-    test(yours);
+    display(mine);
+    display(yours);
 }
 
 
