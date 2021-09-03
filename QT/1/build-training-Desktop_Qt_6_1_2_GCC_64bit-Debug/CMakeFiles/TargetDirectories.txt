@@ -1,0 +1,5 @@
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/1/build-training-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/1/build-training-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/1/build-training-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/training.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/1/build-training-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/training_autogen_timestamp_deps.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/1/build-training-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/training_autogen.dir
