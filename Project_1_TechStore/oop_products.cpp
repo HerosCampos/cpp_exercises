@@ -98,7 +98,7 @@ void Products::quantity_sold(int prod_id_val, int quant_val)
             if((prod.get_quantity() - quant_val) < 0)
             {
                 std::cout << "You cant sell more than you have available in your inventory!" << std::endl;
-                std::cout << "You only have: " << prod.get_quantity() << " un available." << std::endl;
+                std::cout << "You only have: " << prod.get_quantity() << " peaces available." << std::endl;
             }
             else
             {
