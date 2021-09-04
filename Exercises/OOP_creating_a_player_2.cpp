@@ -148,7 +148,7 @@ public:
     int get_flexibility() {return flexibility;}
 
     int set_agility(int agility_val) {agility = agility_val;}
-    int set_agility(int flexibility_val) {flexibility = flexibility_val;}
+    int set_flexibility(int flexibility_val) {flexibility = flexibility_val;}
 
     Monk(std::string name_val = "No name", int health_val = 0, int xp_val = 0, int agility_val = 0, int flexibility_val = 0);
 };
