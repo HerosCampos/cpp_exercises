@@ -25,7 +25,7 @@ public:
     void set_price(double price_val) {price = price_val;}
     void set_quantity(int quantity_val) {quantity = quantity_val;}
 
-    Product(int product_id_val = 0000, std::string name_val = "No_Name", std::string brand_val = "No_brand", double price_val = 0.0, int quantity_val = 0);
+    Product(int product_id_val = 0, std::string name_val = "No_Name", std::string brand_val = "No_brand", double price_val = 0.0, int quantity_val = 0);
 
     Product(const Product &source);
 
