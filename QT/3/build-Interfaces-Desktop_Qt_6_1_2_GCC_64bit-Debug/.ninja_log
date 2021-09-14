@@ -1,0 +1,9 @@
+# ninja log v5
+0	427	1631379360078391779	Interfaces_autogen/timestamp	7956afc272e61e3a
+0	427	1631379360078391779	Interfaces_autogen/mocs_compilation.cpp	7956afc272e61e3a
+0	427	1631379360078391779	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/3/build-Interfaces-Desktop_Qt_6_1_2_GCC_64bit-Debug/Interfaces_autogen/timestamp	7956afc272e61e3a
+0	427	1631379360078391779	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/3/build-Interfaces-Desktop_Qt_6_1_2_GCC_64bit-Debug/Interfaces_autogen/mocs_compilation.cpp	7956afc272e61e3a
+427	3751	1631379363402381109	CMakeFiles/Interfaces.dir/Interfaces_autogen/mocs_compilation.cpp.o	fdcfccb1e1720a59
+439	5788	1631379365442374702	CMakeFiles/Interfaces.dir/main.cpp.o	7869ebcfbb9db9af
+449	5947	1631379365598374215	CMakeFiles/Interfaces.dir/applicance.cpp.o	2d65ea08bf5d72e
+5947	6186	1631379365838373468	Interfaces	24275151b227e1d4

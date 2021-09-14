@@ -1,0 +1,9 @@
+# ninja log v5
+0	330	1631583086447043687	AgeCalc_autogen/timestamp	39646ad680cb1679
+0	330	1631583086447043687	AgeCalc_autogen/mocs_compilation.cpp	39646ad680cb1679
+0	330	1631583086447043687	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/temp/build-AgeCalc-Desktop_Qt_6_1_2_GCC_64bit-Debug/AgeCalc_autogen/timestamp	39646ad680cb1679
+0	330	1631583086447043687	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/temp/build-AgeCalc-Desktop_Qt_6_1_2_GCC_64bit-Debug/AgeCalc_autogen/mocs_compilation.cpp	39646ad680cb1679
+332	3957	1631583090075036593	CMakeFiles/AgeCalc.dir/agecalc.cpp.o	74a01b99528948fe
+331	4740	1631583090859035102	CMakeFiles/AgeCalc.dir/main.cpp.o	1cded6e932b43f07
+330	4741	1631583090863035094	CMakeFiles/AgeCalc.dir/AgeCalc_autogen/mocs_compilation.cpp.o	7cb36bb523c9c589
+4741	5101	1631583091219034422	AgeCalc	968efcfee25f7add

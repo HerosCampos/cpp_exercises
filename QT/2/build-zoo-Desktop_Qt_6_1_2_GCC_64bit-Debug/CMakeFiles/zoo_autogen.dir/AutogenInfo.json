@@ -1,0 +1,206 @@
+{
+	"BUILD_DIR" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug/zoo_autogen",
+	"CMAKE_BINARY_DIR" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo",
+	"CMAKE_EXECUTABLE" : "/home/codecoin/Qt/Tools/CMake/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/CMakeLists.txt",
+		"/home/codecoin/Qt/Tools/QtCreator/share/qtcreator/package-manager/auto-setup.cmake",
+		"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/3.21.1/CMakeSystem.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Platform/Linux.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Platform/UnixPaths.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Compiler/GNU.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindThreads.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindThreads.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindThreads.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckLibraryExists.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckIncludeFileCXX.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeParseArguments.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/QtFeature.cmake",
+		"/home/codecoin/Qt/6.1.2/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXCompilerFlag.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CheckCXXSourceCompiles.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Internal/CheckCompilerFlag.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/Internal/CheckSourceCompiles.cmake",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo",
+	"DEP_FILE" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug/zoo_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "zoo_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/animal.h",
+			"MU",
+			"EWIEGA46WW/moc_animal.cpp",
+			null
+		],
+		[
+			"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/canine.h",
+			"MU",
+			"EWIEGA46WW/moc_canine.cpp",
+			null
+		],
+		[
+			"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/feline.h",
+			"MU",
+			"EWIEGA46WW/moc_feline.cpp",
+			null
+		],
+		[
+			"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/mammal.h",
+			"MU",
+			"EWIEGA46WW/moc_mammal.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug/zoo_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug/zoo_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug",
+		"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo",
+		"/home/codecoin/Qt/6.1.2/gcc_64/include/QtCore",
+		"/home/codecoin/Qt/6.1.2/gcc_64/include",
+		"/home/codecoin/Qt/6.1.2/gcc_64/mkspecs/linux-g++",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/home/codecoin/Qt/Tools/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug/zoo_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/zoo_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/codecoin/Qt/6.1.2/gcc_64/./libexec/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 1,
+	"SETTINGS_FILE" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/zoo_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/animal.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/canine.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/feline.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo/mammal.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

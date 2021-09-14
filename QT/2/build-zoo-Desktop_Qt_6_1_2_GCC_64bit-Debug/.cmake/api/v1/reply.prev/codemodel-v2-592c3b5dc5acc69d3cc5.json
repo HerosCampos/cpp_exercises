@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "zoo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "zoo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zoo-Debug-e5215fb78e1a71c9c9f4.json",
+					"name" : "zoo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zoo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zoo_autogen-Debug-4a7b9c1bfcbc3055779a.json",
+					"name" : "zoo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zoo_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zoo_autogen_timestamp_deps-Debug-cc65db812550383c25c5.json",
+					"name" : "zoo_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/build-zoo-Desktop_Qt_6_1_2_GCC_64bit-Debug",
+		"source" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/2/zoo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,17 @@
+# ninja log v5
+0	292	1631476173157799267	Age_Calculator_autogen/timestamp	e73c920da62e5efe
+0	292	1631476173157799267	Age_Calculator_autogen/mocs_compilation.cpp	e73c920da62e5efe
+0	292	1631476173157799267	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Age Calculator/build-Age_Calculator-Desktop_Qt_6_1_2_GCC_64bit-Debug/Age_Calculator_autogen/timestamp	e73c920da62e5efe
+0	292	1631476173157799267	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Age Calculator/build-Age_Calculator-Desktop_Qt_6_1_2_GCC_64bit-Debug/Age_Calculator_autogen/mocs_compilation.cpp	e73c920da62e5efe
+292	4312	1631476177181847787	CMakeFiles/Age_Calculator.dir/main.cpp.o	3f6d321a738687aa
+293	4740	1631476177609852956	CMakeFiles/Age_Calculator.dir/agecalc.cpp.o	a483ff5924f67779
+292	4749	1631476177617853052	CMakeFiles/Age_Calculator.dir/Age_Calculator_autogen/mocs_compilation.cpp.o	5f568821d4b4b975
+4749	4982	1631476177849855854	Age_Calculator	3da5dd7a9835ea92
+2	209	1631477861962003499	Age_Calculator_autogen/timestamp	e73c920da62e5efe
+2	209	1631477861962003499	Age_Calculator_autogen/mocs_compilation.cpp	e73c920da62e5efe
+2	209	1631477861962003499	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Age Calculator/build-Age_Calculator-Desktop_Qt_6_1_2_GCC_64bit-Debug/Age_Calculator_autogen/timestamp	e73c920da62e5efe
+2	209	1631477861962003499	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Age Calculator/build-Age_Calculator-Desktop_Qt_6_1_2_GCC_64bit-Debug/Age_Calculator_autogen/mocs_compilation.cpp	e73c920da62e5efe
+209	2879	1631477864633988178	CMakeFiles/Age_Calculator.dir/agecalc.cpp.o	a483ff5924f67779
+209	2937	1631477864689987859	CMakeFiles/Age_Calculator.dir/main.cpp.o	3f6d321a738687aa
+209	2951	1631477864705987768	CMakeFiles/Age_Calculator.dir/Age_Calculator_autogen/mocs_compilation.cpp.o	5f568821d4b4b975
+2951	3130	1631477864881986767	Age_Calculator	3da5dd7a9835ea92

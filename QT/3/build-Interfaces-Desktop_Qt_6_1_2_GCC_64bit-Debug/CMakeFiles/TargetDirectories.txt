@@ -1,0 +1,5 @@
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/3/build-Interfaces-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/3/build-Interfaces-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/3/build-Interfaces-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/Interfaces.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/3/build-Interfaces-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/Interfaces_autogen_timestamp_deps.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/3/build-Interfaces-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/Interfaces_autogen.dir
