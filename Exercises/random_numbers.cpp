@@ -29,6 +29,7 @@ void biggest_smallest(std::vector<int> random_storage)
             }
         }
     }
+    
     // Analysing the biggest and smallest values in the vector
     std::cout << "\nThe biggest random number generated is: " << biggest << std::endl; 
     std::cout << "The smallest random number generated is: " << smallest << std::endl;
