@@ -1,0 +1,5 @@
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Pointer memory management/build-pointer_memory_management-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Pointer memory management/build-pointer_memory_management-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Pointer memory management/build-pointer_memory_management-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/pointer_memory_management.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Pointer memory management/build-pointer_memory_management-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/pointer_memory_management_autogen_timestamp_deps.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Pointer memory management/build-pointer_memory_management-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/pointer_memory_management_autogen.dir

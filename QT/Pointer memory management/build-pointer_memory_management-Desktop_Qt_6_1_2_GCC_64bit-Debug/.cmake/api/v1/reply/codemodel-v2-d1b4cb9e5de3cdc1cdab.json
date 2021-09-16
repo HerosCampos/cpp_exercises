@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pointer_memory_management",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pointer_memory_management::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointer_memory_management-Debug-6ee7e5f199d2f0115094.json",
+					"name" : "pointer_memory_management",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointer_memory_management_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointer_memory_management_autogen-Debug-063f71948b1360536c6d.json",
+					"name" : "pointer_memory_management_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointer_memory_management_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointer_memory_management_autogen_timestamp_deps-Debug-d03e5c0ef1e198786b2f.json",
+					"name" : "pointer_memory_management_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Pointer memory management/build-pointer_memory_management-Desktop_Qt_6_1_2_GCC_64bit-Debug",
+		"source" : "/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Pointer memory management/pointer_memory_management"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
