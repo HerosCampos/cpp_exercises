@@ -1,0 +1,10 @@
+# ninja log v5
+0	716	1632099380785116514	Connecting_autogen/timestamp	82a4fe94143fe1ee
+0	716	1632099380785116514	Connecting_autogen/mocs_compilation.cpp	82a4fe94143fe1ee
+0	716	1632099380785116514	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Connecting/build-Connecting-Desktop_Qt_6_1_2_GCC_64bit-Debug/Connecting_autogen/timestamp	82a4fe94143fe1ee
+0	716	1632099380785116514	/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Connecting/build-Connecting-Desktop_Qt_6_1_2_GCC_64bit-Debug/Connecting_autogen/mocs_compilation.cpp	82a4fe94143fe1ee
+716	7029	1632099387121254039	CMakeFiles/Connecting.dir/destination.cpp.o	742fc5a46baa0a74
+751	7046	1632099387141254472	CMakeFiles/Connecting.dir/main.cpp.o	82f819fe4362c2a7
+729	7081	1632099387173255165	CMakeFiles/Connecting.dir/Connecting_autogen/mocs_compilation.cpp.o	e52618a185e02a23
+759	7412	1632099387505262350	CMakeFiles/Connecting.dir/source.cpp.o	9906140cf4269dac
+7412	7822	1632099387913271179	Connecting	4b1e23c756a531f

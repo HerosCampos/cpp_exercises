@@ -1,0 +1,5 @@
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Connecting/build-Connecting-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Connecting/build-Connecting-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Connecting/build-Connecting-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/Connecting.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Connecting/build-Connecting-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/Connecting_autogen_timestamp_deps.dir
+/home/codecoin/cryptocode/CPP/cpp_exercises/QT/Connecting/build-Connecting-Desktop_Qt_6_1_2_GCC_64bit-Debug/CMakeFiles/Connecting_autogen.dir
