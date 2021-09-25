@@ -60,8 +60,35 @@ private:
     double balance;
 
 public:
-    
+    double get_balance() {return balance;}
+    void set_balance(double balance_var) {balance = balance_var;}
+
+    bool deposit(double amount);
+    bool withdraw(double amount);
 };
+
+
+bool Account_balance::deposit(double amount)
+{
+    balance += amount;
+    std::cout << "Deposit ok" << std::endl;
+    return true;
+}
+
+bool Account_balance::withdraw(double amount)
+{
+    if((balance - amount) >= 0)
+    {
+        balance -= amount;
+        std::cout << "Withdraw ok!" << std::endl;
+        return true;
+    }
+    else
+    {
+        std::cout << "No sufficient funds!" << std::endl;
+        return false;
+    }
+}
 
 
 // ===========================================================================================================
@@ -69,11 +96,15 @@ public:
 
 int main()
 {
-    Personal_info heros;
+    Account_balance heros;
     heros.set_person_name("Heros");
     heros.set_person_job_title("C++ Developer");
     heros.set_person_anual_wage(90000);
     heros.set_person_id(123456);
 
     display_personal_info(heros);
+
+    heros.set_balance(195888.69);
+    heros.deposit(1000000);
+    heros.withdraw(50000);
 }
