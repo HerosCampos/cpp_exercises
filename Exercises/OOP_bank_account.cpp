@@ -96,15 +96,31 @@ bool Account_balance::withdraw(double amount)
 
 int main()
 {
-    Account_balance heros;
-    heros.set_person_name("Heros");
-    heros.set_person_job_title("C++ Developer");
-    heros.set_person_anual_wage(90000);
-    heros.set_person_id(123456);
+    // Account_balance heros;
+    // heros.set_person_name("Heros");
+    // heros.set_person_job_title("C++ Developer");
+    // heros.set_person_anual_wage(90000);
+    // heros.set_person_id(123456);
 
-    display_personal_info(heros);
+    // display_personal_info(heros);
 
-    heros.set_balance(195888.69);
-    heros.deposit(1000000);
-    heros.withdraw(50000);
+    // heros.set_balance(195888.69);
+    // heros.deposit(1000000);
+    // heros.withdraw(50000);
+
+
+    while(true)
+    {
+        std::cout << "1 - Create an account\n2 - Check active accounts\n3 - Exit";
+        int opt{0};
+        std::cin >> opt;
+
+        
+
+
+    }
+
+
 }
+
+
