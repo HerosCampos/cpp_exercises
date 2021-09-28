@@ -108,16 +108,34 @@ int main()
     // heros.deposit(1000000);
     // heros.withdraw(50000);
 
+    std::string account_name;  
 
     while(true)
     {
-        std::cout << "1 - Create an account\n2 - Check active accounts\n3 - Exit";
+        std::cout << "1 - Create an account\n2 - Check active accounts\n3 - Exit\nChoose an option: " << std::endl;
         int opt{0};
         std::cin >> opt;
 
-        
+        if(opt == 1)
+        {
+            std::cout << "Insert the name of the account: " << std::endl;                      
+            std::cin >> account_name;
 
+            Account_balance account_name;
 
+        }
+        else if(opt == 2)
+        {
+
+        }
+        else if(opt == 3)
+        {
+            break;
+        }
+        else
+        {
+            std::cout << "Wrong option, please try again..." << std::endl;
+        }
     }
 
 
