@@ -124,34 +124,41 @@ void Accounts::display_accounts() const
             std::cout << "Name: " << person.get_person_name() << std::endl;
             std::cout << "Person ID: " << person.get_person_id() << std::endl;
             std::cout << "Job title: " << person.get_person_job_title() << std::endl;
-            std::cout << "Salary (): " << person.get_person_anual_wage() << std::endl;
-
+            std::cout << "Annual Wage: $ " << person.get_person_anual_wage() << std::endl;
+            std::cout << "Balance: $ "  << person.get_balance() << std::endl;
         }
         std::cout << "===============================================" << std::endl;
     }
 }
 
 
-    // std::string person_job_title
-    // double person_anual_wage
-
-    // double balance
 // ===========================================================================================================
 
 
 int main()
 {
-    Personal_Account heros;
-    heros.set_person_name("Heros");
-    heros.set_person_job_title("C++ Developer");
-    heros.set_person_anual_wage(90000);
-    heros.set_person_id(123456);
+    // Personal_Account heros;
+    // heros.set_person_name("Heros");
+    // heros.set_person_job_title("C++ Developer");
+    // heros.set_person_anual_wage(90000);
+    // heros.set_person_id(123456);
 
-    display_personal_Account(heros);
+    // display_personal_Account(heros);
 
-    heros.set_balance(195888.69);
-    heros.deposit(1000000);
-    heros.withdraw(50000);
+    // heros.set_balance(195888.69);
+    // heros.deposit(1000000);
+    // heros.withdraw(50000);
+
+// ------------------------------------------------------------
+
+    Accounts premium;
+    premium.add_account("Frank", "C++ Developer", 100000.00, 123456, 10000.00);
+    premium.add_account("Mary", "Data Scientist", 110000.00, 987654, 35000.00);
+
+    premium.display_accounts();
+
+// ------------------------------------------------------------
+
 
     // std::string account_name;  
 
