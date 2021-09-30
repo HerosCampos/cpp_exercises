@@ -137,6 +137,7 @@ void Accounts::display_accounts() const
 
 int main()
 {
+// Testing Personal_account class
     // Personal_Account heros;
     // heros.set_person_name("Heros");
     // heros.set_person_job_title("C++ Developer");
@@ -150,45 +151,64 @@ int main()
     // heros.withdraw(50000);
 
 // ------------------------------------------------------------
+// Testing Accounts class
+    // Accounts premium;
+    // premium.add_account("Frank", "C++ Developer", 100000.00, 123456, 10000.00);
+    // premium.add_account("Mary", "Data Scientist", 110000.00, 987654, 35000.00);
 
-    Accounts premium;
-    premium.add_account("Frank", "C++ Developer", 100000.00, 123456, 10000.00);
-    premium.add_account("Mary", "Data Scientist", 110000.00, 987654, 35000.00);
-
-    premium.display_accounts();
+    // premium.display_accounts();
 
 // ------------------------------------------------------------
 
+    Accounts premium;
 
-    // std::string account_name;  
+    std::string account_name;
+    std::string job_title;
+    double annual_wage;
+    int id;
+    double balance;
 
-    // while(true)
-    // {
-    //     std::cout << "1 - Create an account\n2 - Check active accounts\n3 - Exit\nChoose an option: " << std::endl;
-    //     int opt{0};
-    //     std::cin >> opt;
 
-    //     if(opt == 1)
-    //     {
-    //         std::cout << "Insert the name of the account: " << std::endl;                      
-    //         std::cin >> account_name;
+    while(true)
+    {
+        std::cout << "1 - Create an account\n2 - Check active accounts\n3 - Exit\nChoose an option: " << std::endl;
+        int opt{0};
+        std::cin >> opt;
 
-    //         Personal_Account account_name;
+        if(opt == 1)
+        {
+            std::cout << "Client name: " << std::endl;                      
+            std::cin >> account_name;
 
-    //     }
-    //     else if(opt == 2)
-    //     {
+            std::cout << "Job title: " << std::endl;
+            std::cin >> job_title;
 
-    //     }
-    //     else if(opt == 3)
-    //     {
-    //         break;
-    //     }
-    //     else
-    //     {
-    //         std::cout << "Wrong option, please try again..." << std::endl;
-    //     }
-    // }
+            std::cout << "Annual Wage: " << std::endl;
+            std::cin >> annual_wage;
+
+            std::cout << "Client ID: " << std::endl;
+            std::cin >> id;
+
+            std::cout << "Balance: " << std::endl;
+            std::cin >> balance;
+
+
+            premium.add_account(account_name, job_title, annual_wage, id, balance);
+
+        }
+        else if(opt == 2)
+        {
+            premium.display_accounts();
+        }
+        else if(opt == 3)
+        {
+            break;
+        }
+        else
+        {
+            std::cout << "Wrong option, please try again..." << std::endl;
+        }
+    }
 
 
 }
