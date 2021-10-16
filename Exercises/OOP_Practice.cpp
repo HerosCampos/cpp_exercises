@@ -12,9 +12,11 @@ class AbstractEmployee
 class Employee: AbstractEmployee
 {
 private:
-    std::string name;
     std::string company;
     int age;
+
+protected:
+    std::string name;
 
 public:
     std::string get_name() {return name;}
@@ -64,21 +66,56 @@ Employee::Employee(const Employee &source)
 }
 
 
+// ---------------------------------------------------------------------------------------
+
+
+class Developer:public Employee
+{
+private:
+    std::string Favorite_Prog_Language;
+
+public:
+    std::string get_favProgLang() {return Favorite_Prog_Language;}
+    void set_favProgLang(std::string Favorite_Prog_Language_var) {Favorite_Prog_Language = Favorite_Prog_Language_var;}
+
+    Developer(std::string name_var = "no name", std::string company_var = "no company", int age_var = 0, std::string Favorite_Prog_Language_var = "no language");
+
+    void devFunction();
+};
+
+
+Developer::Developer(std::string name_var, std::string company_var, int age_var, std::string Favorite_Prog_Language_var)
+    :Employee(name_var, company_var, age_var)
+    {
+        Favorite_Prog_Language = Favorite_Prog_Language_var;
+    }
+
+
+void Developer::devFunction()
+{
+    std::cout << name << " writes codes using " << Favorite_Prog_Language << std::endl;
+}
+
+// --------------------------------------------------------------------------------------
+
+
 int main()
 {
-    Employee James;
-    James.set_name("James");
-    James.set_company("Microsoft");
-    James.set_age(56);
+    // Employee employee1;
+    // employee1.set_name("James");
+    // employee1.set_company("Microsoft");
+    // employee1.set_age(56);
 
-    // std::cout << James.get_name() << std::endl;
-    // std::cout << James.get_company() << std::endl;
-    // std::cout << James.get_age() << std::endl;
+    // std::cout << employee1.get_name() << std::endl;
+    // std::cout << employee1.get_company() << std::endl;
+    // std::cout << employee1.get_age() << std::endl;
 
-    // James.greeting();
+    // employee1.greeting();
 
-    Employee Sarah("Sarah", "Youtube", 25);
-    James.AskForPromotion();
-    Sarah.AskForPromotion();
+    // Employee employee2("Sarah", "Youtube", 25);
+    // employee1.AskForPromotion();
+    // employee2.AskForPromotion();
 
+    Developer employee3("Frank", "Google", 47, "Java");
+    employee3.devFunction();
 }
