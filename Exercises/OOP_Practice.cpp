@@ -3,7 +3,13 @@
 #include <string>
 
 
-class Employee
+class AbstractEmployee
+{
+    virtual void AskForPromotion() = 0;
+};
+
+
+class Employee: AbstractEmployee
 {
 private:
     std::string name;
@@ -33,6 +39,18 @@ public:
     {
         std::cout << "Hello, my name is " << name << " I am " << age << " years old and I work for " << company << std::endl;
     }
+
+    void AskForPromotion()
+    {
+        if(age > 30)
+        {
+            std::cout << name << " got promoted!" << std::endl;
+        }
+        else
+        {
+            std::cout << name << ", sorry, no promotion for you!" << std::endl;
+        }
+    }
 };
 
 Employee::Employee(std::string name_var, std::string company_var, int age_var)
@@ -53,9 +71,14 @@ int main()
     James.set_company("Microsoft");
     James.set_age(56);
 
-    std::cout << James.get_name() << std::endl;
-    std::cout << James.get_company() << std::endl;
-    std::cout << James.get_age() << std::endl;
+    // std::cout << James.get_name() << std::endl;
+    // std::cout << James.get_company() << std::endl;
+    // std::cout << James.get_age() << std::endl;
 
-    James.greeting();
+    // James.greeting();
+
+    Employee Sarah("Sarah", "Youtube", 25);
+    James.AskForPromotion();
+    Sarah.AskForPromotion();
+
 }
