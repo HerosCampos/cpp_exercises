@@ -96,13 +96,35 @@ void Developer::devFunction()
     std::cout << name << " writes codes using " << Favorite_Prog_Language << std::endl;
 }
 
+
 // --------------------------------------------------------------------------------------
 
 
 class Teacher: public Employee
 {
-    
+private:
+    std::string subject;
+
+public:
+    std::string get_subject() {return subject;}
+    void set_subject(std::string subject_var) {subject = subject_var;}
+
+    Teacher(std::string name_var = "no name", std::string company_var = "no company", int age_var = 0, std::string subject_var = "no subject");
+
+    void prepare_lesson();
 };
+
+
+Teacher::Teacher(std::string name_var, std::string company_var, int age_var, std::string subject_var)
+    :Employee(name_var, company_var, age_var)
+    {
+        subject = subject_var;
+    }
+
+void Teacher::prepare_lesson()
+{
+    std::cout << name << " is preparing " << subject << " lesson." << std::endl;
+}
 
 
 // --------------------------------------------------------------------------------------
