@@ -3,6 +3,15 @@
 #include <string>
 
 
+double calculate_mpg(int miles, int gallons)
+{
+    if(gallons == 0 || miles == 0)
+    {
+        throw 0;
+    }
+    return static_cast<double> (miles) / gallons;
+}
+
 
 int main()
 {
@@ -18,16 +27,14 @@ int main()
 
     try
     {
-        if(gallons == 0)
-        {
-            throw 0;
-        }
-
-        miles_per_gallon = static_cast<double> (miles) / gallons;
+        miles_per_gallon = calculate_mpg(miles, gallons);
         std::cout << "Result: " << miles_per_gallon << " miles per gallon." << std::endl;
     }
     catch(int &ex)
     {
-        std::cerr << "Sorry, you can't divide by zero." << std::endl;
+        std::cerr << "You can't divide by zero." << std::endl;
     }
+    
+
+
 }
