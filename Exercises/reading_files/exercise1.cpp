@@ -18,10 +18,11 @@ int main()
         return 1;
     }
 
-    in_file >> line >> num >> total;
-    std::cout << line << std::endl;
-    std::cout << num << std::endl;
-    std::cout << total << std::endl;
+    while(in_file >> line >> num >> total)
+    {
+        std::cout << line << num << total << std::endl;
+    }
+
 
     in_file.close();
 }
