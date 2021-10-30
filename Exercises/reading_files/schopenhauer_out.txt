@@ -1,0 +1,11 @@
+1      “When we read, another person thinks for us: we merely repeat his mental process. 
+2      In learning to write, the pupil goes over with his pen what the teacher has outlined in pencil: 
+3      so in reading; the greater part of the work of thought is already done for us. 
+4      This is why it relieves us to take up a book after being occupied with our own thoughts. 
+5      And in reading, the mind is, in fact, only the playground of another’s thoughts. 
+6      So it comes about that if anyone spends almost the whole day in reading, 
+7      and by way of relaxation devotes the intervals to some thoughtless pastime, 
+8      he gradually loses the capacity for thinking; just as the man who always rides, 
+9      at last forgets how to walk. This is the case with many learned persons: 
+10     they have read themselves stupid.”
+11     ― arthur schopenhauer, Essays and Aphorisms 
