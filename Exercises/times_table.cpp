@@ -7,7 +7,7 @@ int main()
 {
     while(true)
     {
-        std::cout << "Digite um número para ver sua tabuada: ";
+        std::cout << "Digite um número para ver sua tabuada: (0 para sair) ";
         int num;
         std::cin >> num;
 
