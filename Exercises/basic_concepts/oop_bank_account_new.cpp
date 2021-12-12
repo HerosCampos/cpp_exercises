@@ -139,9 +139,10 @@ int main()
     // display_personal_account(heros);
 
     // Testing Accounts class
-    Accounts classic;
-    classic.add_account("Heros Campos", "C++ Developer", 250000, 123456789, 9954256);
-    classic.add_account("Frank Castle", "Navy Seal", 120000, 444444444, 450254);
-    classic.display_all_accounts();
+    // Accounts classic;
+    // classic.add_account("Heros Campos", "C++ Developer", 250000, 123456789, 9954256);
+    // classic.add_account("Frank Castle", "Navy Seal", 120000, 444444444, 450254);
+    // classic.display_all_accounts();
+
 
 }
