@@ -1,35 +1,35 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <algorithm>
+
 
 int main()
 {
-    int num{};
+    std::vector<int> vec_even{};
+    std::vector<int> vec_odd{};
+
     char stopFlag{};
-    std::vector<int> nums{};
-    std::vector<int> nums_even{};
-    std::vector<int> nums_odd{};
 
     while(true)
     {
         std::cout << "Enter a number: ";
+        int num{};
         std::cin >> num;
-        nums.push_back(num);
-
+        
         if(num % 2 == 0)
         {
-            nums_even.push_back(num);
+            vec_even.push_back(num);
         }
         else
         {
-            nums_odd.push_back(num);
+            vec_odd.push_back(num);
         }
 
 
+        
         while(true)
         {
-            std::cout << "Do you want to continue? [Y/N] ";
+            std::cout << "Would you like to continue? [Y/N] ";
             std::cin >> stopFlag;
 
             if(stopFlag == 'Y' || stopFlag == 'y' || stopFlag == 'N' || stopFlag == 'n')
@@ -37,30 +37,28 @@ int main()
                 break;
             }
         }
+
         if(stopFlag == 'N' || stopFlag == 'n')
         {
             break;
         }
     }
 
-    std::cout << "The whole list: ";
-    for(auto n: nums)
+    
+    std::cout << "The even numbers are: [";
+    for(auto n: vec_even)
     {
         std::cout << n << " ";
     }
-    std::cout << std::endl;
 
-    std::cout << "Even numbers: ";
-    for(auto n: nums_even)
-    {
-        std::cout << n << " ";
-    }
-    std::cout << std::endl;
+    std::cout << "]" << std::endl;
 
-    std::cout << "Odd numbers: ";
-    for(auto n: nums_odd)
+    std::cout << "The odd numbers are: [";
+    for(auto n: vec_odd)
     {
         std::cout << n << " ";
     }
-    std::cout << std::endl;
+
+    std::cout << "]" << std::endl;    
 }
+
